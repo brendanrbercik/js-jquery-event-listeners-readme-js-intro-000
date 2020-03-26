@@ -19,7 +19,12 @@ function pressIt() {
 }
 
 function submitIt() {
-
+  $('form').on("submit", function() {
+    if ($('input:first').val() === "correct") {
+      alert('Your form will be submitted now.');
+    }
+    alert('You entered the wrong value.');
+  });
 }
 
 $(document).ready(function(){
