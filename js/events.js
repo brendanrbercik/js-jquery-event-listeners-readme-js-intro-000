@@ -5,7 +5,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').on("load", function () {
+  $('document').on("load", function () {
     append(class = "tasty");
   })
 }
