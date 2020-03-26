@@ -5,7 +5,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').append('class = "tasty"');
+  $('img').append(' class="tasty"');
 }
 
 function pressIt() {
