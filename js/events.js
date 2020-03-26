@@ -5,14 +5,13 @@ function getIt() {
 }
 
 function frameIt() {
-  $(window).on("load", function() {
+  $(document).on("load", function() {
     $('img').addClass('tasty');
   });
-
 }
 
 function pressIt() {
-
+  $
 }
 
 function submitIt() {
